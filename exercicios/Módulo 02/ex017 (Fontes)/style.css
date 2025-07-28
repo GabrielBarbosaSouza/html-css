@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*Medidas Absolutas
+    px, em, mm, in, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    16px geralmente == 1em
+    */
+    font-size: 1em;
+    /*lighter, normal, bold, bolder*/
+}
+
+h1 {
+    /*shorthand - font
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    */
+    
+    /*font-style, font-weight, font-size, font-family (SWSA -> SUSA)*/
+    font: normal normal 3em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>]
+    <style>
+    @charset "UTF-8";
+
+
+    body {
+        background-image: linear-gradient(to right, #6FEAFC, #68a7db);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+    }
+
+    header {
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px 20px 20px;
+        box-shadow: 4px 6px 13px rgba(0, 0, 0, 0.63);
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+
+    header > h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #000000;
+    }
+
+    .icons {
+        height: 1.3em;
+    }
+
+    nav {
+        background: linear-gradient(to right, #6FEAFC, #68a7db);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 0;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 9px 6px 20px rgba(0, 0, 0, 0.315);
+    }
+
+    nav a {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        font-size: 1.1em;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        background-color: #1730444b;
+        border-radius: 25px;
+    }
+
+
+    main {
+        background-color: white;
+        border-radius: 20px;
+        padding: 1px 15px;
+        text-align: justify;
+        box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.63);
+        width: 80%;              
+        max-width: 900px;        
+        margin: 20px auto;       
+    }
+
+    aside {
+        text-align: right;
+    }
+
+    footer {
+        margin: 0px;
+        background-color: #173044;
+        color: white;
+        padding: 0.8em;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://wa.me/17996761346" target="_blank"> <img class="icons" src="icons8-whatsapp-50.png" alt="WhatsApp"> WhatsApp</a></li>
+            <a href="https://www.instagram.com/obiels0/" target="_blank"> <img class="icons" src="icons8-instagram-50.png" alt="Instagram"> Instagram</a></li>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, perspiciatis rerum placeat totam vitae, incidunt in cum, libero temporibus quisquam id. Quam quasi, officiis veritatis eaque pariatur minima dolore at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae expedita dolores nulla accusamus, debitis veritatis ex repellendus placeat dolore? Perferendis saepe quisquam ea, quos voluptate rem praesentium amet vero. lorem</p>
+                <aside>
+                    <p>Artigo escrito por Antônio Fonseca Ferri</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícias sobre o Suiça</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, perspiciatis rerum placeat totam vitae, incidunt in cum, libero temporibus quisquam id. Quam quasi, officiis veritatis eaque pariatur minima dolore at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae expedita dolores nulla accusamus, debitis veritatis ex repellendus placeat dolore? Perferendis saepe quisquam ea, quos voluptate rem praesentium amet vero.</p>
+                <aside>
+                    <p>Artigo escrito por Junior Costa</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícias sobre o Itália</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, perspiciatis rerum placeat totam vitae, incidunt in cum, libero temporibus quisquam id. Quam quasi, officiis veritatis eaque pariatur minima dolore at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae expedita dolores nulla accusamus, debitis veritatis ex repellendus placeat dolore? Perferendis saepe quisquam ea, quos voluptate rem praesentium amet vero.</p>
+                <aside>
+                    <p>Artigo escrito por Nicole Motta</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Gabriel Souza
+    </footer>
+</body>
+</html>

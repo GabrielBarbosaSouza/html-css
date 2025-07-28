@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(250, 249, 187);
+    color: rgb(172, 169, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(172, 169, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
