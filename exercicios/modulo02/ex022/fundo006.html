@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
+            
+            /* Shorthand Background
+                color -> image -> position -> repeat -> size -> attachment
+
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
             background-position: center center;
+            background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            background: black url(imagens/wallpaper002.jpg) center center / cover repeat-x fixed;
         }
 
         main {
             color: black;
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             border-radius: 10px;
             padding: 10px;
             margin: auto;
@@ -37,7 +44,11 @@
 <body>
     <main>
         <h1>Teste de Imagens de Fundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repudiandae voluptatibus dicta nam, atque, nemo dolore nisi placeat sit tempore, non quis nulla ullam ad inventore. Odio pariatur tempora doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dignissimos necessitatibus quaerat magni, eius atque consequuntur libero iste veniam placeat commodi deleniti, sunt corporis animi sequi? Eum doloremque incidunt dicta!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repudiandae voluptatibus dicta nam, atque, nemo dolore nisi placeat sit tempore, non quis nulla ullam ad inventore. Odio pariatur tempora doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dignissimos necessitatibus quaerat magni, eius atque consequuntur libero iste veniam placeat commodi deleniti, sunt corporis animi sequi? Eum doloremque incidunt dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </p>Quis rem atque quasi, dolorem eum itaque. Rerum, at nulla ratione commodi quas labore temporibus impedit voluptate corporis deleniti cumque quis dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, necessitatibus nam corporis cupiditate sequi laborum eos quo alias. Tempore quibusdam tempora vero a reiciendis cum ex eligendi, iste sapiente unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, alias iusto? Natus blanditiis cum nesciunt quis accusamus nisi maxime neque dolor optio aliquam, dolore corrupti autem, odio explicabo ullam molestias?lo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere fugit adipisci quo error dolore sunt quisquam consectetur quos suscipit esse corporis similique cumque officiis dolorem ipsum, unde minima earum rem!</p>
+        </p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repudiandae voluptatibus dicta nam, atque, nemo dolore nisi placeat sit tempore, non quis nulla ullam ad inventore. Odio pariatur tempora doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dignissimos necessitatibus quaerat magni, eius atque consequuntur libero iste veniam placeat commodi deleniti, sunt corporis animi sequi? Eum doloremque incidunt dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </p>Quis rem atque quasi, dolorem eum itaque. Rerum, at nulla ratione commodi quas labore temporibus impedit voluptate corporis deleniti cumque quis dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, necessitatibus nam corporis cupiditate sequi laborum eos quo alias. Tempore quibusdam tempora vero a reiciendis cum ex eligendi, iste sapiente unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, alias iusto? Natus blanditiis cum nesciunt quis accusamus nisi maxime neque dolor optio aliquam, dolore corrupti autem, odio explicabo ullam molestias?lo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        Facere fugit adipisci quo error dolore sunt quisquam consectetur quos suscipit esse corporis similique cumque officiis dolorem ipsum, unde minima earum rem!</p>
     </main>
 </body>
 </html>
