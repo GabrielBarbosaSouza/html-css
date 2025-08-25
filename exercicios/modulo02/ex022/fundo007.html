@@ -3,33 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alinhamento Vertical</title>
     <style>
         #container {
-            background-image: url("imagens/target001.png");
-            background-size: 100% 100%;
-            background-color: purple;
-            position: relative;
-            height: 96vh;
+            position: relative; /*por padrão o posicionamento de uma bos sempre é relativo*/
+            height: 90vh;
             padding: 10px;
+
+            background-color: purple;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
         }
 
         #conteudo {
-            background-image: url("imagens/target001.png");
-            background-size: 100% 100%;
             position: absolute;
+            
             height: 200px;
-            max-width: 380px;
+            width: 400px;
+
             background-color: yellow;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
             left: 50%;
             top: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
     <section id="container">
         <article id="conteudo">
-
         </article>
     </section>
 </body>
